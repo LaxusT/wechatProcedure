@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view>
+    <view wx:for="{{list}}" class="item" bindtap="next" data-next="{{item.href}}" wx:key="item.href">
+        {{index}}: {{item.name}}
+    </view>
+</view>

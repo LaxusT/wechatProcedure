@@ -1,0 +1,6 @@
+<!--back.wxml-->
+<template>
+  <view class="back">
+    返回
+  </view>
+</template>
